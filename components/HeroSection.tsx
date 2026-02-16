@@ -8,6 +8,7 @@ const slides = [
     id: 1,
     title: "Building great companies is a craft.",
     description:
+    
       "We know what it takes to build unicorn companies because we’ve done it ourselves. We’ve assembled a team of senior operators and investors with one goal: to help founders build great companies.",
     image: "/hero1.mp4",
   },
