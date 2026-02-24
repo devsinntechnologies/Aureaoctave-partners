@@ -113,7 +113,7 @@ export default function HeroSlider() {
           >
             {/* Slide Counter */}
             <div className="mb-6 text-sm tracking-[0.3em] text-gray-400">
-              <span className="text-red-500 font-semibold text-lg">
+              <span className="text-[#3AF5C4] font-semibold text-lg">
                 {String(current + 1).padStart(2, "0")}
               </span>{" "}
               / {String(slides.length).padStart(2, "0")}
@@ -160,7 +160,7 @@ export default function HeroSlider() {
             key={i}
             className={`h-1 w-10 rounded-full transition-all duration-500 ${
               i === current
-                ? "bg-red-500"
+                ? "bg-[#3AF5C4]"
                 : "bg-white/20"
             }`}
           />

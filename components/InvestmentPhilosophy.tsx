@@ -22,8 +22,8 @@ export default function InvestmentPhilosophy() {
     <section className="relative bg-[#0E1319] text-white py-32 overflow-hidden">
 
       {/* Subtle Background Glow */}
-      <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-red-600/20 blur-[160px] rounded-full" />
-      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-purple-600/10 blur-[160px] rounded-full" />
+      <div className="absolute -top-40 -left-40 w-[500px] h-[500px] bg-[#3AF5C4]/20 blur-[160px] rounded-full" />
+      <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-[#3AF5C4]/10 blur-[160px] rounded-full" />
 
       <div className="relative max-w-7xl mx-auto px-6">
 
@@ -38,7 +38,7 @@ export default function InvestmentPhilosophy() {
           <h2 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white to-gray-400 bg-clip-text text-transparent">
             Our Investment Philosophy
           </h2>
-          <div className="w-24 h-[2px] bg-red-500 mx-auto rounded-full" />
+          <div className="w-24 h-[2px] bg-[#3AF5C4] mx-auto rounded-full" />
         </motion.div>
 
         {/* Cards */}
@@ -53,15 +53,15 @@ export default function InvestmentPhilosophy() {
               className="group relative bg-white/5 backdrop-blur-xl 
                          border border-white/10 
                          rounded-2xl p-12 
-                         hover:border-red-500/40
+                         hover:border-[#3AF5C4]/40
                          transition-all duration-500"
             >
               {/* Hover Glow Effect */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-gradient-to-br from-red-500/10 to-transparent rounded-2xl" />
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-500 bg-gradient-to-br from-[#3AF5C4]/10 to-transparent rounded-2xl" />
 
               {/* Number */}
               <div className="flex items-center gap-6 mb-10">
-                <span className="text-5xl font-bold text-red-500">
+                <span className="text-5xl font-bold text-[#3AF5C4]">
                   {String(index + 1).padStart(2, "0")}
                 </span>
                 <div className="flex-1 h-[1px] bg-white/20 group-hover:bg-red-400 transition-colors" />

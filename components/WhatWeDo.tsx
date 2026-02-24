@@ -35,8 +35,8 @@ export default function WhatWeDo() {
     <section className="relative bg-[#0F1720] text-white py-36 overflow-hidden">
 
       {/* Ambient Background Glow */}
-      <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-red-600/10 blur-[200px] rounded-full" />
-      <div className="absolute -bottom-40 -right-40 w-[600px] h-[600px] bg-purple-600/10 blur-[200px] rounded-full" />
+      <div className="absolute -top-40 -left-40 w-[600px] h-[600px] bg-[#3AF5C4]/10 blur-[200px] rounded-full" />
+      <div className="absolute -bottom-40 -right-40 w-[600px] h-[600px] bg-[#3AF5C4]/10 blur-[200px] rounded-full" />
 
       <div className="relative max-w-7xl mx-auto px-6">
 
@@ -57,7 +57,7 @@ export default function WhatWeDo() {
             create long-term value through strategic capital and operational excellence.
           </p>
 
-          <div className="w-24 h-[2px] bg-gradient-to-r from-red-500 to-transparent mx-auto mt-8 rounded-full" />
+          <div className="w-24 h-[2px] bg-gradient-to-r from-[#3AF5C4] to-transparent mx-auto mt-8 rounded-full" />
         </motion.div>
 
         {/* Cards Grid */}
@@ -71,7 +71,7 @@ export default function WhatWeDo() {
               transition={{ duration: 0.8, delay: index * 0.2 }}
               viewport={{ once: true }}
               whileHover={{ y: -8 }}
-              className="group relative rounded-3xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-md shadow-xl hover:shadow-red-500/10 transition-all duration-700"
+              className="group relative rounded-3xl overflow-hidden border border-white/10 bg-white/5 backdrop-blur-md shadow-xl hover:shadow-[#3AF5C4]/10 transition-all duration-700"
             >
 
               {/* Image */}
@@ -85,7 +85,7 @@ export default function WhatWeDo() {
               </div>
 
               {/* Soft Overlay Glow */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-700 bg-gradient-to-br from-red-500/20 to-transparent" />
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition duration-700 bg-gradient-to-br from-[#3AF5C4]/20 to-transparent" />
 
               {/* Content */}
               <div className="relative p-14 min-h-[420px] flex flex-col justify-end">
@@ -106,7 +106,7 @@ export default function WhatWeDo() {
                 </p>
 
                 {/* Animated Line */}
-                <div className="mt-10 h-[2px] w-0 bg-gradient-to-r from-red-500 to-transparent group-hover:w-28 transition-all duration-700" />
+                <div className="mt-10 h-[2px] w-0 bg-gradient-to-r from-[#3AF5C4] to-transparent group-hover:w-28 transition-all duration-700" />
 
               </div>
 

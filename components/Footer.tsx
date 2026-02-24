@@ -33,12 +33,12 @@ export default function Footer() {
 
           {/* Left */}
           <motion.div variants={fadeUp} className="flex flex-col gap-8">
-            <span className="text-3xl font-semibold tracking-[0.4em] text-red-500">
-              Aureaoctave Partners
+            <span className="text-3xl font-semibold tracking-[0.4em] text-[#3AF5C4]">
+              Aurea Octave Partners
             </span>
 
             <p className="text-sm text-white/50 leading-relaxed max-w-sm">
-              Aureaoctave Partners LLP is authorised and regulated by the
+              Aurea Octave Partners LLP is authorised and regulated by the
               Financial Conduct Authority (Firm Reference Number 1016286).
             </p>
           </motion.div>
@@ -68,7 +68,7 @@ export default function Footer() {
                     className="relative text-white/60 hover:text-white transition duration-300 group"
                   >
                     {item.label}
-                    <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-red-500 transition-all duration-300 group-hover:w-full" />
+                    <span className="absolute left-0 -bottom-1 w-0 h-[1px] bg-[#3AF5C4] transition-all duration-300 group-hover:w-full" />
                   </Link>
                 </motion.div>
               ))}

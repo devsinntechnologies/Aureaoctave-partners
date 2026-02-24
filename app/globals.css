@@ -1,11 +1,13 @@
 @import "tailwindcss";
 
 
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --color-red-500: #e11d48; /* Example: Tailwind rose-600 */
-  --color-secondary: #0B1116; /* Example: dark blue/gray */
+  --bg: #0E1319;
+  --background: var(--bg);
+  --foreground: #ffffff;
+  --color-primary: #3AF5C4;
+  --color-secondary: #ffffff;
 }
 
 @theme inline {
@@ -17,10 +19,11 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --color-primary: #fb7185; /* Lighter rose for dark mode */
-    --color-secondary: #ededed;
+    --bg: #0E1319;
+    --background: var(--bg);
+    --foreground: #ffffff;
+    --color-primary: #3AF5C4;
+    --color-secondary: #ffffff;
   }
 }
 
