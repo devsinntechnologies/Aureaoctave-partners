@@ -10,6 +10,7 @@ const Card = ({ title, children }) => (
       </h2>
       <div className="text-slate-600 dark:text-slate-300 leading-relaxed">
         {children}
+        
       </div>
     </div>
   </div>
